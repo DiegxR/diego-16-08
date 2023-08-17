@@ -1,0 +1,12 @@
+  45  git init
+   46  git checkout -b feature
+   47  mkdir Hardware Software SeguridadInformatica
+   48  touch Hardware/resumen.txt SeguridadInformatica/resumen.txt 
+Software/resumen.txt
+   49  git add .
+   50  git commit -m "commit 02 DiegoRojas"
+   51  git push origin feature
+   52  git checkout main
+   63  mv main.js resumenHarware.txt
+   64  mv index.html resumenSoftware.txt
+   65  touch comandos.txt
